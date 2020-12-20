@@ -1,6 +1,8 @@
 # Debian
 IRCD + GNUWorld + CService-Web 
 
+OS TEST: Debian GNU/Linux 10 \n \l (10.7)
+
 #1 PREPARE Your System : Pre-Requisites first Step!
 
 #2 Install ircu2 : ircu2 Second Step!
