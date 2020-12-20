@@ -16,7 +16,7 @@
 		
 	 root@ircd:~# /usr/bin/updatedb
 	 root@ircd:~# locate tclConfig.sh
-     /usr/lib/tclConfig.sh
+         /usr/lib/tclConfig.sh
 	 /usr/lib/tcl8.6/tclConfig.sh
 	 /usr/lib/x86_64-linux-gnu/tclConfig.sh
 	 /usr/lib/x86_64-linux-gnu/tcl8.6/tclConfig.sh
