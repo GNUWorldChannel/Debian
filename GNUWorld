@@ -5,7 +5,7 @@
  The  \____|_| \_|\___/   \_/\_/ \___/|_|_|  \__,_| Guide #3
 ------------------------------------------------------------
       OS SUPPORT: Debian GNU/Linux 10 \n \l (10.7)
-		[ by: ARI3L | rVn | y2k ]
+		[ by: ARI3L | y2k ]
 ------------------------------------------------------------
 
 #1 - Prepare the system by installing the necessary components. (tcl-dev, net-tools, libpqxx-dev)
