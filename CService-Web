@@ -29,19 +29,21 @@ because we can only help you install the site, but never modify the code that th
 	root@ircd:~# sudo service apache2 restart
 
 	root@ircd:~# curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
-
 #2. Now We going to download the GNUWorld cservice-web part!
-	
-	 root@ircd:~#
-	 root@ircd:~# su - gnuworld
-	 gnuworld@ircd:~$ 
-	 gnuworld@ircd:~$ git clone https://github.com/UndernetIRC/cservice-web/
-	 gnuworld@ircd:~$ cd cservice-web
-	 gnuworld@ircd:~/gnuworld/cservice-web$ composer install
-	 gnuworld@ircd:~/gnuworld/cservice-web$ cd php_includes
-	 gnuworld@ircd:~/gnuworld/cservice-web/php_includes$ cp config.inc.dist config.inc
-	 EDIT: config.inc (With your own values)
-	 
+
+         root@ircd:~#
+         root@ircd:~# su - gnuworld
+         gnuworld@ircd:~$ 
+         gnuworld@ircd:~$ git clone https://github.com/GNUWorldChannel/cservice-web-php7.4.git
+         gnuworld@ircd:~$ mv cservice-web-php7.4 cservice-web
+         gnuworld@ircd:~$ cd cservice-web
+         gnuworld@ircd:~/gnuworld/cservice-web$ composer install
+         gnuworld@ircd:~/gnuworld/cservice-web$ cd php_includes
+         gnuworld@ircd:~/gnuworld/cservice-web/php_includes$ cp config.inc.dist config.inc
+         gnuworld@ircd:~/gnuworld/cservice-web/php_includes$ cp cmaster.inc.dist cmaster.inc
+         gnuworld@ircd:~/gnuworld/cservice-web/php_includes$ cp blackhole.inc.dist blackhole.inc
+ EDIT: inc files (With your own values)
+ 	 
 	 gnuworld@ircd:~/gnuworld/cservice-web/php_includes$ cd ..
 	 gnuworld@ircd:~/gnuworld/cservice-web/ cd ..
 	 gnuworld@ircd:~/gnuworld$
@@ -84,6 +86,6 @@ because we can only help you install the site, but never modify the code that th
 	 gnuworld@ircd:~/gnuworld/cservice-web/php_includes$ /usr/local/pgsql/bin/psql -h 127.0.0.1 cservice < ipr.sql 
 	 
 	 NOW you are able to login into cservice-web with Admin + temPass if you didn´t change it with the ip provided.
-	 You can add more ips from user edit via web, so no need to add another one.
+	 You can add more ips from user edit via web, so no need to use twice ipr.sql
 	 
 	 That´s all :)
