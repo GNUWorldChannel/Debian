@@ -56,7 +56,7 @@
 	 
 #5 - Install PGTCL1.5
 	 
-	 root@ircd:~# git clone https://github.com/Shadowss/tcl8.4.13-src
+	 root@ircd:~# git clone https://github.com/Shadowss/pgtcl1.5.git
 	 root@ircd:~# cd pgtcl1.5
 	 root@ircd:~/pgtcl1.5# export PG_CONFIG=/usr/local/pgsql/bin/pg_config
 	 root@ircd:~/pgtcl1.5#
