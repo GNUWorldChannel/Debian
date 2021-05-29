@@ -1,7 +1,7 @@
 # Debian
 IRCD + GNUWorld + CService-Web 
 
-OS TEST: Debian GNU/Linux 10 \n \l (10.7)
+OS Release: Debian GNU/Linux 10 \n \l (10.7)
 
 #1 PREPARE Your System : Pre-Requisites first Step!
 
